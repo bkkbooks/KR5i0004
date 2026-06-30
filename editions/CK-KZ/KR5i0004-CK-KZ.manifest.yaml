@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0004/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0004/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始上帝毘盧遮耶說大洞救劫尊經
+  date: '2015-08-29 17:48:09.695210'
+  source:
+    repository: kanripo
+    path: KR5i0004
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0004_001-CK-KZ.yaml, hash: 'sha256:aa249e4eb56439ed96ef6bc68b9de56de8c135e973757235bd46ebf531f6d9bb'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0004_001-CK-KZ.markers.yaml, hash: 'sha256:e9f0f6ad1ed19eadf133618ae665a374033a5f8f1237a83cfdb4dec4438c8a7b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0004_01p056a
+    span:
+    - body
+    - 0
+    - 6792
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:c315feef562ef366c063fbef3ea6bc278ac672592aa51fcb65f811a9c5ec4550
